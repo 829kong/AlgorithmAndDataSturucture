@@ -18,5 +18,14 @@
     <ClCompile Include="Queue.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="BFS.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
