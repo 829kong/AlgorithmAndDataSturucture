@@ -81,6 +81,7 @@ void Board::GenerateMap()
 			const int32 randValue = ::rand() % 2;
 			if (randValue == 0)
 			{
+
 				_tile[y][x + 1] = TileType::EMPTY;
 			}
 			else
