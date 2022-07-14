@@ -1,21 +1,16 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
-template<typename T>
-class Test
-{
-public:
-	T& operator[] (const int pos)
-	{
-		return _data[pos];
-	}
-public:
-	T* _data = nullptr;
-};
+
 
 int main()
 {
-	Test<int> T;
-
-	int* _data = new  
+	vector<int> v = { 1,2,3,4 };
+	cout << v.front() << endl;
+	cout << v.back() << endl;
+	v.pop_back();
+	cout << v.back() << endl;
+	cout << v[4] << endl;
+	cout << v[5] << endl;
 }

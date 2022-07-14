@@ -30,5 +30,11 @@
     <ClCompile Include="Dijkstra Algorithm.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="PrioirityQueue.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
