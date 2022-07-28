@@ -3,9 +3,10 @@
 #include <list>
 #include <stack>
 #include <queue>
-#include "BinarySearchTree.h"
+//#include "BinarySearchTree.h"
+#include "RedBlackTree.h"
 using namespace std;
-
+#include <thread>
 // 주제 : 이진 탐색 트리
 
 // 이진 탐색 (binary search)
@@ -50,20 +51,32 @@ void BinarySearch(int N)
 
 int main()
 {
-	BinarySearchTree bst;
+	RedBlackTree bst;
+
+	bst.insert(30);
+	bst.Print();
+	this_thread::sleep_for(1s);
+
+	bst.insert(10);
+	bst.Print();
+	this_thread::sleep_for(1s);
 
 	bst.insert(20);
-	bst.insert(10);
-	bst.insert(30);
+	bst.Print();
+	this_thread::sleep_for(1s);
+
 	bst.insert(25);
-	bst.insert(50);
-	bst.insert(26);
-	bst.insert(40);
+	bst.Print();
+	this_thread::sleep_for(1s);
 
 	bst.Delete(20);
-
 	bst.Print();
-	cout << endl;
+	this_thread::sleep_for(1s);
+
+	bst.Delete(10);
+	bst.Print();
+	this_thread::sleep_for(1s);
+
 
 
 	return 0;

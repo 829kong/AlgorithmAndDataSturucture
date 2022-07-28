@@ -42,9 +42,15 @@
     <ClCompile Include="BinarySearchTree.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="RedBlackTree.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinarySearchTree.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="RedBlackTree.h">
       <Filter>Main</Filter>
     </ClInclude>
   </ItemGroup>
