@@ -45,6 +45,18 @@
     <ClCompile Include="RedBlackTree.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="BasicSorting.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapAndMergeSorting.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSorting.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinarySearchTree.h">
