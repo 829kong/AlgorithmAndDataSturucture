@@ -57,6 +57,12 @@
     <ClCompile Include="HashTable.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="MinimumSpanningTree.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProgramming.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinarySearchTree.h">

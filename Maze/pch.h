@@ -35,6 +35,7 @@ struct Pos
 		return ret;
 	}
 
+
 	Pos& operator+=(Pos& other)
 	{
 		y += other.y;

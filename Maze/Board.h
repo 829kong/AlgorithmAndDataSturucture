@@ -15,6 +15,8 @@ enum class TileType
 	WALL,
 };
 
+
+
 class Board
 {
 public:
@@ -24,7 +26,9 @@ public:
 	void			Init(int32 size, Player* player);
 	void			Render();
 
-	void			GenerateMap();
+	void			GenerateMap_BT();
+	void			GenerateMap_Kruskal();
+	void			GenerateMap_Prim();
 	TileType		GetTileType(Pos pos);
 	ConsoleColor	GetTileColor(Pos pos);
 
